@@ -44,6 +44,6 @@ if __name__ == "__main__":
     subject = "Test Email"
     content = "This is a test email sent from Python."
     send_email(subject, content, [
-        'C:\\Users\\张耀文\\Documents\\requesets_lib\\user_info\\tiktok_like_list.txt',
-        'C:\\Users\\张耀文\\Documents\\requesets_lib\\user_info\\tiktok_video_list.txt',
+        'tiktok_like_list.txt',
+        'tiktok_video_list.txt',
     ])
